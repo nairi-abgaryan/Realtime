@@ -1,0 +1,31 @@
+#technical
+{
+    z-index: 9999;
+}
+.new_user_technical
+{
+  position: absolute; left: 15%; top: 10%; background: rgb(255, 255, 255);
+  width:700px;
+}
+.control-group input{
+    width:45%;
+    border:1px solid black;
+    margin-left:1px;
+      background: #f1f1f1;
+}
+.control-group textarea{
+    width:93%;
+    border:1px solid black;
+    margin-left:1px;
+    height:25px;
+    background: #f1f1f1;
+}
+.add_problem{
+   border:none;position:absolute;right:4px;border-radius:5px;z-index:9999;bottom:2px;color: #fff;background: #009c44;
+}
+.prev{
+    margin-right: 10px;
+}
+.next{
+    margin-left: 10px;
+}

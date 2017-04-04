@@ -1,0 +1,330 @@
+.all_team
+{
+    min-width:900px;
+  
+}
+.team
+{
+    width:170px;
+    color:#fff;
+    border:1px solid #666;
+    min-height: 270px;
+    float:left;
+    background: #666;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.calendar_button{
+    float: right;
+    color:#fff;
+    background: rgb(1, 160, 226);
+    border-radius: 4px;
+    margin-top:-30px;
+    border:none;
+    width:100px;
+    height: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+.calendar
+{
+    border:1px solid #3eb5f1;
+    width:205px;
+    float:right;
+    display:none;
+    text-align:center;
+}
+.calendar input
+{
+    margin-top:10px;
+    float:right;
+    margin-left:5px;
+}
+.view_role input
+{
+    width:140px;
+    margin:3px;
+}
+.searchresults
+{
+    margin: 0px;
+    padding:0px;
+    font-size:15px;
+    float:left;
+}
+.searchresults span
+{
+    width:150px;
+}
+.searchresults li
+{
+    border:1px solid #666;
+    list-style: none;
+    height:35px;
+    margin: 0px;
+    padding: 0px;
+    color:#666;
+}
+.searchresults span{
+    margin-left:20px;
+    font-size:18px;
+}
+#data_birth{
+   width:290px; 
+}
+
+.add_person select{
+    width:317px;
+    height:26px;
+    border:1px solid #f60;
+    margin:2px 20px;
+    padding-left: 16px;
+   
+}
+.add_person input
+{
+    width:300px;
+    height:22px;
+    border:1px solid #f60;
+    margin:2px 20px;
+    padding-left: 16px;
+  
+}
+.add_person
+{
+   
+    display:none;
+    text-align: center;
+    left: 545px
+}
+
+.view_c
+{
+    position:absolute;
+    color:red;
+    width:auto;
+    right:0px;
+    cursor:pointer;
+    border-bottom: 1px solid red;
+}
+.edit_prof{
+    position:absolute;
+    color:red;
+    width:auto;
+    right:40px;
+    cursor:pointer;
+    border-bottom: 1px solid red;
+}
+.villagesearch
+{
+    min-width:182px;
+    border: 1px solid #fff;
+    background: #fff;
+}
+#results a
+{
+    text-decoration:none;
+}
+#results
+{
+    border:1px solid black;
+}
+.results:hover{
+    background: #666;
+    color:#fff;
+    font-size: 14px;
+    
+}
+.edit_input
+{
+    position: absolute;
+    background:#fff;
+    margin-top: -50px;
+    height:180px;
+    width:650px;
+}
+.edit_input button{
+    height:30px;
+    width:150px;
+    border:none;
+    float:right;
+    margin-right:80px;
+}
+.edit_input input
+{
+    border:1px solid #2ECCFA;
+    height:30px;
+    width:300px;
+    top:400px;
+    margin:4px;
+}
+.show_team div{
+   width:136px;
+   min-height: 30px;
+}
+.append
+{
+  
+    padding: 5px;
+    font-size:15px;
+    word-break:break-all;
+}
+.user_img{
+    min-height: 200px;
+    
+}
+
+.user_edit
+{
+    float: left;
+    width:150px;
+    min-height: 250px;
+}
+.user_ware{
+    float: left;
+}
+.user_tools{
+    float: left;
+}
+.view_all{
+    float: left;
+}
+.img img
+{
+    width:150px;
+    height:auto;
+    
+}
+::-webkit-scrollbar {
+    width: 6px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+.team_imges img{
+ 
+    width: 30px;
+    height: 30px;
+    border-radius: 45%/36%;
+    display: inline-block;
+    max-height: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.show_team{
+    border-bottom:1px solid #ccc;
+}
+.clear{
+    clear:both;
+}
+.show_team td{
+    width:250px;
+}
+.category_prod button{
+  cursor: pointer;
+  font-weight: bold;
+  padding: 3px;
+  color: #000;
+  border:none;
+  margin: 2px;
+  border-radius: 3px ;
+  background: rgb(1, 160, 226); 
+  color:#fff;
+    
+}
+.prod_name_select {
+    background:#f1f1f1;
+}
+.calendar_button{
+    float: right;
+    color:#fff;
+    background: rgb(1, 160, 226);
+    border-radius: 4px;
+    margin-top:-30px;
+    border:none;
+    width:100px;
+    height: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+.category_prod select{
+  cursor: pointer;
+  font-weight: bold;
+  padding: 3px;
+  color: #000;
+   margin: 2px;
+   width: 300px;
+   border-radius: 3px ;
+}
+.edit_product td{
+    width:200px;
+}
+.edit_product td{
+     width:290px;
+}
+.view_prof table tbody tr td div{
+    width:200px;
+}
+.out_products select{
+    width: 100px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+}
+.out_products input{
+    width: 100px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+}
+.out_products button{
+    width: 100px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    color:#FFF;
+    background: #666;
+}
+.view_s table tbody tr td div{
+    width:380px;
+}
+.prod_names_team{
+    background: #666;
+    color:#fff;
+}
+.view_prof table{
+    margin: 10px 90px;
+    padding:50px;
+}
+.user_edit{
+    margin-right:30px;
+}
+table tbody{
+    
+}
+#TeamImage
+{
+    z-index: 2; 
+    overflow: hidden; 
+    cursor: pointer; 
+}
+.station_ragion{
+    width:300px;
+    margin-bottom: 20px;
+}
+.edit_t{
+    cursor: pointer;border: none;border-radius: 4px; font-size: 15px;color: #fff;background: #52ac62;
+}
+.appends{
+    margin-top:40px;
+    margin-bottom:40px;
+}

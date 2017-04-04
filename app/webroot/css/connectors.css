@@ -1,0 +1,444 @@
+body{
+    font-family: "Arian AMU","ArianAMU-font", "sylfaen";
+    font-size: 15px;
+}
+input:required:invalid, input:focus:invalid {
+    background-image: url(../img/false.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+input:required:valid {
+    background-image: url(../img/true.png);
+    background-size: 20px;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+}
+select:required:invalid, input:focus:invalid {
+    background-image: url(../img/false.jpg);
+    background-position: right 10px top;
+    background-repeat: no-repeat;
+    background-size: 15px;
+}
+select:required:valid {
+    background-image: url(../img/true.png);
+    background-size: 15px;
+    background-position: right 10px top;
+    background-repeat: no-repeat;
+}
+.service_selected{
+    width:300px;
+}
+service
+{
+    float:right;
+}
+.form_page{
+    width:1050px;
+}
+.left_div input
+{
+    margin:3px;
+}
+.left_div
+{
+    width:800px;
+}
+.gps_div
+{
+    margin_left:3px;
+    width:400px;
+    float:left;
+}
+.search
+{
+    margin-top:30px;
+    width:400px;
+    border:1px solid #2ECCFA;
+    height: 20px;
+}
+.conection input
+{
+    width:100px;
+    border:1px solid #2ECCFA;
+}
+.category{
+    width:500px;
+    display: block;
+    margin-left:3px;
+    height:29px;
+    border:1px solid #2ECCFA;
+}
+.region{
+    width:250px;
+    display: block;
+    margin-left:3px;
+    height:29px;
+    border:1px solid #2ECCFA;
+}
+.conection button
+{
+    display:none;
+}
+.conections
+{
+    display: none;
+}
+.ClientResult
+{
+    color:#fff;
+    background: #01a0e2;
+}
+.StyleClientResult button
+{
+    width:80px;
+    background: #009c44;
+    border-radius: 2px;
+    border:none;
+    margin-top: 1px;
+}
+.ClientResult td
+{
+
+    border-left:1px solid #fff;
+}
+
+.submit
+{
+    background: #01a0e2;
+    border:1px solid #01a0e2;
+    color: #fff; 
+}
+
+.addClientLink a
+{
+    text-decoration: none;
+    color: #01a0e2;
+ 
+}
+.addClientLink
+{
+    margin-top: 30px;
+    cursor:pointer;
+}
+
+.addClientLinkP a
+{
+    text-decoration: none;
+    color: #01a0e2;
+   
+}
+.addClientLinkP
+{
+   margin-top: 30px;
+  cursor:pointer;
+}
+.problemForm
+{
+    width:540px;
+}
+.problemForm textarea
+{
+    width: 400px;
+}
+.problemForm input
+{
+    width:400px;
+    border:1px solid #2ECCFA;
+    height: 25px;
+    margin: 1px;
+}
+
+.addForm
+{
+    width:540px;
+}
+.addForm div
+{
+   
+    margin:3px 0px 0px 1px;
+}
+.addForm input
+{
+    border:1px solid #2ECCFA;
+   
+}
+.adding
+{
+    background: #009c44;
+    
+}
+.control-group 
+{
+    margin: 0px;
+    padding: 0px;
+}
+.control-group input
+{
+    margin-right:10px;
+    margin-top: 10px;
+}
+.ressponsservice{
+    margin: 0px;
+    padding: 0px;
+}
+.clienttel
+{
+    border:1px solid #01a0e2;
+    background: #009c44;
+    display: block;
+    margin-top:20px;
+}
+.persontel
+{
+    border:1px solid #01a0e2;
+    background: #009c44;
+}
+.legaltel
+{
+    border:1px solid #01a0e2;
+    background: #009c44;
+    margin-top:20px;
+}
+.closeadding
+{
+    position: absolute;
+    right: 1px;
+    background: red;
+    font-weight: bold;
+    border: none;
+    color: #fff;
+}
+.close_ar{
+    position: absolute;
+    right: 1px;
+    background: red;
+    font-weight: bold;
+    border: none;
+    color: #fff;
+}
+.textarea
+{
+    width:520px;
+    margin-top: 20px;
+    border: 1px solid #2ECCFA;
+    max-width: 520px;
+
+}
+.NewClientResult li
+{
+    list-style: none;
+    display:inline;
+}
+.ClientResults 
+{
+/*    min-height:100px;
+    max-height: 290px;
+    overflow: -moz-scrollbars-vertical;
+    overflow-x: hidden;
+    overflow-y: visible;*/
+}
+::-webkit-scrollbar {  
+    width: 10px; 
+}  
+::-webkit-scrollbar-track {  
+    background-color: #eaeaea;  
+    border-left: 1px solid #ccc;  
+}  
+::-webkit-scrollbar-thumb {  
+    background-color: #01a0e2;
+    border-radius: 10px; 
+}  
+::-webkit-scrollbar-thumb:hover {  
+    background-color: #01a0e2;  
+}  
+::-webkit-scrollbar-track-piece
+{
+    border-radius: 2px;
+}
+.closepersonform
+{
+    background: #009c44;
+    width:200px;
+    height: 35px;
+    border:1px solid #2ECCFA;
+    font-size: 18px;
+    border-radius:4px;
+}
+.button
+{
+    float:left;
+}
+a{
+    cursor: pointer;
+}
+button
+{
+    cursor: pointer;
+}
+.closelegalform
+{
+    background: #009c44;
+    width:150px;
+    height: 25px;
+    border:1px solid #2ECCFA;
+}
+.personForm div
+{
+    margin:3px 0px 0px 1px;
+}
+.personForm input
+{
+    width:180px;
+    border:1px solid #2ECCFA;
+    height: 25px;
+}
+.personForm
+{
+    position:fixed;
+}
+.technical input{
+    width:180px;
+    border:1px solid #ccc;
+    height: 25px;
+}
+.technical select{
+    width:180px;
+    border:1px solid #ccc;
+    height: 25px;
+}
+.technical
+{
+    width:600px;
+   
+}
+.addtels
+{
+    border: 1px solid #01a0e2;
+    background: #009c44;
+    margin-top: 20px;
+}
+#LegalPersonreg
+{
+    width:250px;
+}
+.personForm label
+{
+    display: block;
+    color:#01a0e2;
+}
+.gps label
+{
+    background:#009c44;
+    display: block;
+    width:40px;
+    height: 17px;
+}
+.user_property input
+{
+    margin: 3px;
+}
+.user_property
+{
+    width:640px;
+    float:left;
+}
+.service button
+{
+    border: 1px solid #01a0e2;
+    background: #009c44;
+    margin-top: 20px;
+}
+#update
+{
+    position:relative;
+}
+.streetsearch
+{
+    width:155px;
+    border: 1px solid #fff;
+    background: #fff;
+    padding: 0px;
+}
+.searchresults
+{
+    position: absolute;
+    width:400px;
+    border: 1px solid #fff;
+    background: #fff;
+}
+.villagesearch
+{
+    min-width:182px;
+    border: 1px solid #fff;
+    background: #fff;
+}
+.streetsearch
+{
+    min-width:182px;
+    border: 1px solid #fff;
+    background: #fff;
+}
+.results
+{
+    min-height:14px;
+}
+.results:hover{
+    background: #666;
+    color: #fff;
+}
+.result
+{
+   
+    height:20px;
+    color: #f60;
+}
+.result:hover{
+    background: #666;
+    color: #fff;
+}
+
+.adress select{
+    float: left;
+}
+.adress{
+    width:800px;
+    float: left;
+    position:relative;
+}
+.adress input{
+    float:left;
+}
+#created_people{
+    margin-left:20px;
+}
+.archives{
+   position:relative;
+   margin:0px auto;
+   text-align: center;
+    
+}
+.archives_read{
+    width:1024px;
+    background:#fff;
+    margin:0px auto;
+    position: absolute;
+    top:25px;
+}
+.more{
+    width: 60px;
+    background: #009c44;
+    border-radius: 2px;
+    border: none;
+    margin-top: 1px;
+    color:#FFF;
+    font-weight: bold;
+    height: 25px;
+    text-align: center;
+    height:20px; 
+    margin: -20px -50px; 
+    position:relative;
+    top:50%; 
+    left:50%;
+}
